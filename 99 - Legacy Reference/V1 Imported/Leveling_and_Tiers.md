@@ -1,0 +1,141 @@
+---
+tags: [legacy, v1, reference]
+status: legacy
+source: Leveling_and_Tiers.txt
+---
+# Leveling and Tiers — V1 Legacy
+
+> [!warning] Legacy only
+> Preserved for mining ideas. Old ranks, levels, stats, prices and mechanics are not current canon unless reintroduced in active notes.
+
+LEVELING AND TIERS (CANON CLARIFIED VERSION)
+===========================================
+
+DEFINITIONS (IMPORTANT)
+-----------------------
+Stats:
+- STR = Strength
+- AGI = Agility
+- VIT = Vitality
+- INT = Intelligence
+
+PHY (Physical Stats):
+- "PHY" is a category meaning STR + AGI + VIT (used only in growth rules and shorthand notes).
+
+Attribute Gain Per Level (Rank Table):
+- The "Attribute Gain Per Level" values in Section (3) are a POINT POOL.
+- You gain that many (Attribute Points) each level, then you distribute them into STR/AGI/VIT/INT as you choose,
+  subject to your build/species/class biases and caps.
+
+Tier Progression Benchmarks (Section 4):
+- In Section (4), "Physical" is NOT the same thing as PHY in Section (2).
+- "Physical" in Section (4) is a shorthand benchmark for (STR + AGI) only.
+- VIT is listed separately in Section (4) because it scales faster than STR/AGI in your setting.
+
+
+1) PLAYER TIER CHART (LEVEL-BASED)
+----------------------------------
+| Level Range | Player Tier Name | Description |
+|-------------|------------------|-------------|
+| 1–50        | Tier One         | Novice; new adventurers; basic skills |
+| 51–100      | Tier Two         | Intermediate; skilled fighters; minor elites |
+| 101–200     | Tier Three       | Advanced; veteran players; low-ranked bosses |
+| 201–400     | Tier Four        | High-tier; regional champions; elite commanders |
+| 401–700     | Tier Five        | World-class; legendary heroes; rare monsters |
+| 701–1000    | Tier Six         | Pinnacle mortals; mythic-adjacent beings |
+| 1001–1200   | Tier Seven       | Lord-level entities |
+| 1201–1500   | Tier Eight       | World-shaper emperor tier |
+| 1501–2500+  | God/Demon Class  | True gods; high demons; supreme entities |
+
+
+2) BASE STAT GAIN PER LEVEL (SIMPLE MODEL; CATEGORY SHORTHAND)
+--------------------------------------------------------------
+This section is a HIGH-LEVEL shorthand for typical growth tendencies by major rank bands.
+It describes "baseline leaning" (how builds usually allocate points), not mandatory allocation.
+
+- E to A ranks:
+  - Typical allocation pattern per level: +1 to (one of STR/AGI/VIT) and +2 to INT
+- S to Mythic-2:
+  - Typical allocation pattern per level: +3 to Physical (distributed across STR/AGI/VIT) and +5 to INT
+- Demi to Divine:
+  - Typical allocation pattern per level: +5 to Physical (distributed across STR/AGI/VIT) and +10 to INT
+
+Notes:
+- PHY here means the physical-stat CATEGORY (STR, AGI, VIT).
+- Exact point allocation is governed by Section (3): Rank Attribute Gain Table (point pool).
+
+
+3) RANK ATTRIBUTE GAIN TABLE (POINT POOL PER LEVEL)
+---------------------------------------------------
+Rule:
+- Each level, you gain a number of Attribute Points based on your Rank.
+- You distribute those points into STR/AGI/VIT/INT (build-dependent).
+- Species/class tendencies often bias VIT growth higher than STR/AGI, which is why VIT benchmarks scale faster in Section (4).
+
+| Rank                  | Mana Color       | Attribute Pts / Lvl | Typical Examples |
+|-----------------------|------------------|---------------------|------------------|
+| E                     | Dull Grey        | +2                  | Regular humans; basic trainees |
+| D                     | Pale Bronze      | +3                  | Soldiers; knights; minor awakened |
+| C                     | Copper Green     | +4                  | Low-tier adventurers; basic monster elites |
+| B                     | Azure Blue       | +5                  | Beastkin; lesser vampires; high goblins; mid orcs; solid mid-tier players |
+| A                     | Royal Purple     | +7                  | True vampires; high elves; dragonoid warriors; veteran players; elite commanders |
+| S (Pinnacle)          | Sunlight Gold    | +10                 | National champions; named gate bosses; clan heads |
+| SS-1 (Ascendant)      | Crimson Spark    | +12                 | Refined S-rank veterans; lesser vampire lords; demon captains |
+| SS-2 (Sovereign)      | Violet Obsidian  | +14                 | Major vampire lords; demon dukes; dragon generals; city-destroyer threats |
+| SS-3 (Transcendent)   | Silver Mercury   | +16                 | Heroic legends nearing apotheosis; top warlords/champions |
+| Mythic-1 (Legendary)  | Ethereal Teal    | +18                 | Archfey nobles; ancient dragon kings; high demon princes |
+| Mythic-2 (Origin)     | Celestial White  | +20                 | Realm guardians; proto-god champions; named calamities; Tower-chosen monsters |
+| Demi (Demigod Class)  | Void Black       | +25                 | Primordial dragons; great demon kings; nascent god-rulers |
+| Divine (God Tier)     | Starry Violet    | +30                 | True godborns; divine hybrids; avatars; gods in mortal form |
+
+Natural Limit (setting note):
+- Most civilizations peak at B–A in a normal world.
+- S and above are extremely rare; Mythic/Demi/Divine belong to legend/calamity/divinity.
+
+
+4) TIER PROGRESSION STATS (AVERAGE BENCHMARKS)
+----------------------------------------------
+Interpretation:
+- Physical = (STR + AGI)
+- Vitality = VIT (listed separately because it scales faster than STR/AGI in your setting)
+- INT = Intelligence
+- Attribute Points = typical total unspent/free points 
+
+| Tier Benchmark       | Level  | Physical (STR+AGI) | Vitality (VIT) | INT      | Attribute Points |
+|----------------------|--------|--------------------|----------------|----------|------------------|
+| First Tier           | -      |                    | -              |          |                  |
+| Second Tier          | 50     | 350                | 600            | 750      | 250              |
+| Third Tier           | 100    | 1,000              | 2,000          | 2,200    | 550              |
+| Fourth Tier          | 200    | 5,000              | 10,000         | 12,500   | 2,000            |
+| Fifth Tier           | 400    | 15,000             | 35,000         | 35,000   | 10,000           |
+| Sixth Tier           | 700    | 45,000             | 90,000         | 110,000  | 25,000           |
+| Seventh Tier         | 1000   | 120,000            | 260,000        | 300,000  | 60,000           |
+| Eighth Tier          | 1200   | 300,000            | 700,000        | 800,000  | 150,000          |
+| Ninth Tier           | 1500+  | 900,000+           | 2,200,000+     | 2,500,000+ | 400,000+       |
+
+
+5) LEVEL 20 BASELINE STATS (STANDARD AVERAGE)
+---------------------------------------------
+| Rank | STR | AGI | VIT | INT |
+|------|-----|-----|-----|-----|
+| S    | 120 | 120 | 122 | 200 |
+| A    | 62  | 62  | 70  | 120 |
+| B    | 56  | 55  | 60  | 100 |
+| C    | 55  | 54  | 60  | 85  |
+| D    | 52  | 52  | 55  | 75  |
+| E    | 50  | 50  | 55  | 60  |
+
+
+6) STAR SPELL SCALING TABLE
+---------------------------
+| Star Rating  | Natural Power | Artificial Power | Range            | Width          | Circles | Tier         |
+|--------------|---------------|------------------|------------------|----------------|---------|--------------|
+| One Star     | 250           | 75               | 5 meters         | 1 meter        | 1       | Senior Mage  |
+| Two Stars    | 750           | 500              | 10 meters        | 2.5 meters     | 1       | Elite Mage   |
+| Three Stars  | 2,000         | 1,500            | 30 meters        | 10 meters      | 3       | Grand Mage   |
+| Four Stars   | 5,000         | 3,500            | 250 meters       | 50 meters      | 7       | Great Mage   |
+| Five Stars   | 20,000        | 15,000           | 1,000 meters     | 250 meters     | 20      | Archmage     |
+| Six Stars    | 50,000        | 35,000           | 5,000 meters     | 1,000 meters   | 50      | Supreme Mage |
+| Seven Stars  | 200,000       | 150,000          | 50,000 meters    | 10,000 meters   | 100     | Mythic Mage  |
+| Eight Stars  | 1,000,000     | 750,000          | 1,000 kilometers | 100 kilometers | 250     | Divine Mage  |
+
