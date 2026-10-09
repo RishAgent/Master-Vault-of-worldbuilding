@@ -1,0 +1,38 @@
+name: Import master canon vault
+
+on:
+  push:
+    paths:
+      - master-vault-import.zip
+
+permissions:
+  contents: write
+
+jobs:
+  import-vault:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Expand normalized vault
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .vault-import
+          mkdir .vault-import
+          unzip -q master-vault-import.zip -d .vault-import
+          cp -a .vault-import/. .
+          rm -rf .vault-import
+          mkdir -p _source
+          mv master-vault-import.zip _source/Alok_V4_Lore_Vault_Draconic_Integrated.zip
+
+      - name: Commit imported canon vault
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Import Alok V4 master canon vault"
+          git push
