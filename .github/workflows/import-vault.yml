@@ -1,6 +1,7 @@
 name: Import master canon vault
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - master-vault-import.zip
@@ -14,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Expand normalized vault
         shell: bash
@@ -23,6 +24,7 @@ jobs:
           rm -rf .vault-import
           mkdir .vault-import
           unzip -q master-vault-import.zip -d .vault-import
+          chmod -R u+rwX .vault-import
           cp -a .vault-import/. .
           rm -rf .vault-import
           mkdir -p _source
